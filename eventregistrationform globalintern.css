@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+}
+
+.containers {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXU3geqbN0klC5XmKmqfYTR2eDUAG2AFvdE-T2jmCWQvtj_g2kAR_3w5MqCUhsfDtiUiEPmkFbGzS-SkxX3FnxJ2JKe2y5zsj_fHBex9yUqGItnggnb-VDO3-kh5gJAhvt0o-f74kcDt66YPklJy2Ud4aNGdgh6Ft7BsVcB2KbyPFDFJrkOWdsAJjxGg/s1920-rw/v10-060622-pc-wallpaper-hd.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    color: #d96c00;
+    font-size: 40px;
+    font-family: "Book Antiqua";
+    font-weight: 900;
+}
+
+button {
+    color: white;
+    background-color: #d0b200;
+    width: 130px;
+    font-family: "Book Antiqua";
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.label {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Rockwell";
+    font-weight: 600;
+}
+
+footer {
+    color: #d96c00;
+    font-weight: bold;
+    font-family: "Book Antiqua";
+    height: 3%;
+    bottom: -34px;
+}
+
+.welcome {
+    margin-top: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
